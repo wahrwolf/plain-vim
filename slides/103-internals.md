@@ -1,3 +1,31 @@
+#What is a register?#
+- mini buffers for tex
+- most can be set manually
+- some have special effects
+
+## what can vim do with them ?##
+- save snippets
+- save commands
+- save search queries
+- paste them
+
+## basic uses ##
+- "Ay : append yank operation to buffer a
+- "ay : insert yank opertion to buffer a
+- "ap : paste buffer after cursor
+- qaq : insert text to buffer
+- ctrl+r a : paste buffer (works for all modes)
+# Most common registers #
+- [a-z] : free to use personal buffers
+- [0-9] : last buffers
+- / : contains last search query
+- . : contains last commadn
+- % contains file name
+- \+ : clipboard
+- \* : primary selection
+- = : evaluates expr and prints it
+- \_ : the blackhole register
+- \- : small delete register (less than a line)
 # Macros #
 - a series of actions which can be easily repeated
 - no recursion allowed (see functions)

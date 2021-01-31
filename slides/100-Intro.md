@@ -1,5 +1,6 @@
 # whoami #
-- student
+- mafiasi
+- system administrator
 - developer**ish**
 - hacker
 
@@ -15,3 +16,10 @@
 - vim
 - zsh
 
+# What is vim? #
+- an editor
+- an operating system
+- an religion
+- not emacs
+- a language
+- :wq!a
