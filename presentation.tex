@@ -1,0 +1,24 @@
+\documentclass[t]{beamer}  
+%\usetheme{AnnArbor}                 
+\usetheme{Berkeley}                 
+\setbeamertemplate{navigation symbols}{}
+
+% fix for missing tightlist - error (pandoc)
+\providecommand{\tightlist}{%
+	  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\input{me.tex}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
+\end{frame}
+
+\input{"slides.tex"}
+
+\end{document}
